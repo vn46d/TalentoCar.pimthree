@@ -1,0 +1,21 @@
+<h1>Painel Talento Car</h1>
+<div id="lista"></div>
+
+<script>
+fetch("http://localhost:5000/agendamentos")
+.then(res => res.json())
+.then(data => {
+    const div = document.getElementById("lista");
+
+    data.forEach(item => {
+        div.innerHTML += `
+            <div style="border:1px solid #000; margin:10px; padding:10px;">
+                <strong>${item.nome}</strong><br>
+                📞 ${item.telefone}<br>
+                🚗 ${item.carro}<br>
+                📅 ${item.data} - ${item.horario}
+            </div>
+        `;
+    });
+});
+</script>

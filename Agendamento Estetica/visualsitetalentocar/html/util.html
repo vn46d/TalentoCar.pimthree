@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento Talento Car</title>
+
+    <link rel="stylesheet" href="/Agendamento Estetica/visualsitetalentocar/css/visual.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">🚗 Talento Car 🚗</div>
+
+    <h2>Agendar Serviço</h2>
+
+    <input type="text" id="nome" placeholder="Seu nome">
+    <input type="text" id="telefone" placeholder="Telefone">
+
+    <select id="carro">
+        <option value="">Tipo do carro</option>
+        <option value="hatch">Hatch</option>
+        <option value="sedan">Sedan</option>
+        <option value="suv">SUV / Pickup</option>
+    </select>
+
+    <select id="servico">
+        <option value="">Serviço básico</option>
+        <option value="simples">Lavagem Simples</option>
+        <option value="completa">Lavagem Completa</option>
+        <option value="interna">Lavagem Interna</option>
+    </select>
+
+    <select id="servicoEspecial">
+        <option value="">Serviço especializado</option>
+        <option value="polimento">Polimento</option>
+        <option value="detalhada">Lavagem Detalhada</option>
+        <option value="higienizacao">Higienização</option>
+    </select>
+
+    <input type="date" id="data">
+    <select id="horario"></select>
+
+    <button onclick="agendar()">Agendar</button>
+
+    <p id="mensagem"></p>
+
+</div>
+
+<script src="/Agendamento Estetica/visualsitetalentocar/js/eng.js"></script>
+
+</body>
+</html>

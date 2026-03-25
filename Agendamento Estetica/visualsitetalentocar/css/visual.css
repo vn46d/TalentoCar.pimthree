@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #0a1f44, #0f6cbd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(120deg, #0f6cbd, #000);
+    padding: 40px;
+    width: 90%;
+    max-width: 350px;
+    border-radius: 15px;
+}
+
+.logo {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    background: linear-gradient(90deg, #1e90ff, #00c6ff);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#mensagem {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}

@@ -1,6 +1,6 @@
 # 🚗 TalentoCar
 
-Sistema de agendamento automotivo.
+E um sistema de agendamento de uma estetica automotiva onde faço freelancer nos finais de semana.
 
 ## 📌 Funcionalidades
 - Cadastro de usuários
@@ -17,4 +17,4 @@ Sistema de agendamento automotivo.
 3. Executar o storage.sql
 
 ## 👨‍💻 Autor
-Vinicius
+Vinicius Alves

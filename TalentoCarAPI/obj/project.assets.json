@@ -83,19 +83,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Glorimax\\.nuget\\packages\\": {}
+    "C:\\Users\\vinic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Glorimax\\Documents\\vn\\TalentoCarAPI\\TalentoCarAPI.csproj",
+      "projectUniqueName": "C:\\Users\\vinic\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
       "projectName": "TalentoCarAPI",
-      "projectPath": "C:\\Users\\Glorimax\\Documents\\vn\\TalentoCarAPI\\TalentoCarAPI.csproj",
-      "packagesPath": "C:\\Users\\Glorimax\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Glorimax\\Documents\\vn\\TalentoCarAPI\\obj\\",
+      "projectPath": "C:\\Users\\vinic\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
+      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vinic\\TalentoCar.pimthree\\TalentoCarAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Glorimax\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"

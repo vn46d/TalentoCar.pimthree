@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Dhsw7NBnonI=",
+  "dgSpecHash": "54ruE8RSxGs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Glorimax\\Documents\\vn\\TalentoCarAPI\\TalentoCarAPI.csproj",
+  "projectFilePath": "C:\\Users\\vinic\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Glorimax\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
-    "C:\\Users\\Glorimax\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\vinic\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
   ],
   "logs": []
 }

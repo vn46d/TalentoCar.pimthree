@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TalentoCarAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7d1133a7c39930e868a14cced21104e8b554510")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af7a3c74d4a4ab0c80821e0355ebd4956a344a5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TalentoCarAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TalentoCarAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "54ruE8RSxGs=",
+  "dgSpecHash": "7p55xVv+FPo=",
   "success": true,
   "projectFilePath": "C:\\Users\\vinic\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
-    "C:\\Users\\vinic\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

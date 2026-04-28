@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinic\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
+      "projectUniqueName": "C:\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
       "projectName": "TalentoCarAPI",
-      "projectPath": "C:\\Users\\vinic\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
+      "projectPath": "C:\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
       "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinic\\TalentoCar.pimthree\\TalentoCarAPI\\obj\\",
+      "outputPath": "C:\\TalentoCar.pimthree\\TalentoCarAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config"

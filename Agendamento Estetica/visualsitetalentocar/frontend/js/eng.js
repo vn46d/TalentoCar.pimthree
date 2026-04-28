@@ -1,4 +1,3 @@
-// 🔥 GERAR HORÁRIOS (fora da função)
 function gerarHorarios() {
     const select = document.getElementById("horario");
 
@@ -10,13 +9,10 @@ function gerarHorarios() {
     }
 }
 
-// 🔥 roda quando a página abrir
 window.onload = function () {
     gerarHorarios();
 };
 
-
-// 🔥 FUNÇÃO DE AGENDAR
 function agendar() {
 
     const nome = document.getElementById("nome").value;

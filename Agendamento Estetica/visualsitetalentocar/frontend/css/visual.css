@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
@@ -50,4 +50,58 @@ button {
     text-align: center;
     margin-top: 10px;
     color: white;
+
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    padding: 12px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #00c6ff;
+    transform: scale(1.05);
+}
+
+footer p {
+    margin: 0;
+    color: #777;
+}
+
+footer a:not(:last-child) {
+    border-right: 1px solid #444;
+    padding-right: 15px;
+}
+
+body {
+    padding-bottom: 70px;
+}
+
+@media (max-width: 500px) {
+footer {
+    flex-direction: column;
+    gap: 5px;
+    }
+
+footer a {
+    border: none;
+    padding: 0;
+    
+    }
 }

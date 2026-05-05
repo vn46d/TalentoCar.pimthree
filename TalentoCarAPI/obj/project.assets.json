@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
+      "projectUniqueName": "H:\\pimthree\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
       "projectName": "TalentoCarAPI",
-      "projectPath": "C:\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
+      "projectPath": "H:\\pimthree\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
       "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "C:\\TalentoCar.pimthree\\TalentoCarAPI\\obj\\",
+      "outputPath": "H:\\pimthree\\TalentoCar.pimthree\\TalentoCarAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -485,13 +485,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\TalentoCar.pimthree\\TalentoCarAPI\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
-    }
-  ]
+  }
 }

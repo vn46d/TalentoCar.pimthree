@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S4Dxu0eYCxA=",
+  "dgSpecHash": "BOdjRlkbJQM=",
   "success": true,
-  "projectFilePath": "C:\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
+  "projectFilePath": "H:\\pimthree\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problema ao ler o arquivo de cache C:\\TalentoCar.pimthree\\TalentoCarAPI\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\TalentoCar.pimthree\\TalentoCarAPI\\TalentoCarAPI.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

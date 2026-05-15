@@ -13,11 +13,12 @@ window.onload = function () {
     gerarHorarios();
 };
 
-function agendar() {
+async function agendar() {
 
     const nome = document.getElementById("nome").value;
     const telefone = document.getElementById("telefone").value;
     const carro = document.getElementById("carro").value;
+    const placa = document.getElementById("placa").value;
     const servico = document.getElementById("servico").value;
     const servicoEspecial = document.getElementById("servicoEspecial").value;
     const data = document.getElementById("data").value;
@@ -25,27 +26,24 @@ function agendar() {
 
     const msg = document.getElementById("mensagem");
 
-    // validação
-    if (!nome || !telefone || !carro || (!servico && !servicoEspecial) || !data || !horario) {
+    if (!nome || !telefone || !carro || !placa || (!servico && !servicoEspecial) || !data || !horario) {
         msg.innerText = "Preencha tudo!";
         msg.style.color = "red";
         return;
     }
-//dados da lista
+
     let lista = JSON.parse(localStorage.getItem("agendamentos")) || [];
 
-//repetição
-
     const jaExiste = lista.some(item =>
-    item.data === data && item.horario === horario
-);
+        item.data === data && item.horario === horario
+    );
 
-if (jaExiste) {
-    msg.innerText = "Esse horário já está ocupado!";
-    msg.style.color = "orange";
-    return;
-}
-    // salvar
+    if (jaExiste) {
+        msg.innerText = "Esse horário já está ocupado!";
+        msg.style.color = "orange";
+        return;
+    }
+
     const agendamento = {
         nome,
         telefone,
@@ -56,18 +54,55 @@ if (jaExiste) {
         horario
     };
 
-    lista.push(agendamento);
-    
-    localStorage.setItem("agendamentos", JSON.stringify(lista));
-    fetch("http://localhost:5000/agendamentos", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json"
-    },
-    body: JSON.stringify(agendamento)
-});
+    try {
 
-    msg.innerText = "Agendado com sucesso!";
-    msg.style.color = "lightgreen";
+        // salva cliente
+        await fetch("http://localhost:5103/clientes", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                nome,
+                telefone,
+                carro,
+                placa: placa
+            })
+        });
+
+        // busca último cliente
+        const resposta = await fetch("http://localhost:5103/clientes");
+        const clientes = await resposta.json();
+
+        const ultimoCliente = clientes[clientes.length - 1];
+
+        // salva agendamento ligado ao cliente
+        await fetch("http://localhost:5103/agendamentos", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                clienteId: clientes.length,
+                servico,
+                servicoEspecial,
+                data,
+                horario
+            })
+        });
+
+        lista.push(agendamento);
+        localStorage.setItem("agendamentos", JSON.stringify(lista));
+
+        msg.innerText = "Agendamento realizado com sucesso!";
+        msg.style.color = "lightgreen";
+
+    } catch (error) {
+
+        msg.innerText = "Erro ao salvar!";
+        msg.style.color = "red";
+        console.error(error);
+
+    }
 
 }
